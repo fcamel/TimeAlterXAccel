@@ -18,6 +18,7 @@
       "matches": [ "http://*/*", "https://*/*", "file:///*" ]
    } ],
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "tabs"
   ]
 }
