@@ -13,18 +13,19 @@ chrome.runtime.onMessage.addListener(
         let e = document.createElement('div')
         e.id = id;
         let width = 500;
-        let height = 200;
+        let height = 50;
         e.style.position = 'fixed'
         e.style.zIndex = 99999;
         e.style.width = '' + width + 'px';
         e.style.height ='' + height + 'px';
         e.style.left = '' + (window.innerWidth - width) / 2 + 'px';
-        e.style.top = '' + (window.innerHeight - height) / 3 + 'px';
-        e.style.color = '#000';
+        e.style.top = '' + (window.innerHeight - height) / 10 + 'px';
+        e.style.color = '#ccc';
         e.style.padding = '30px';
-        e.style.backgroundColor = '#fff';
+        e.style.backgroundColor = '#000';
         e.style.border = '2px solid gray';
         e.style.fontSize = '30px';
+        e.style.fontFamily = 'Arial';
         e.style.borderRadius = '15px';
         // Align both sides to center.
         e.style.textAlign = 'center';
