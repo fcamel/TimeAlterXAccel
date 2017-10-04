@@ -17,7 +17,6 @@ chrome.runtime.onMessage.addListener(
         e.style.position = 'fixed'
         e.style.zIndex = 99999;
         e.style.width = '' + width + 'px';
-        e.style.height ='' + height + 'px';
         e.style.left = '' + (window.innerWidth - width) / 2 + 'px';
         e.style.top = '' + (window.innerHeight - height) / 10 + 'px';
         e.style.color = '#ccc';
